@@ -9,22 +9,30 @@ class Nav extends Component {
         <img src={M} alt="Woodlake" className="nav-logo"></img>
         <div className="nav-group">
           <a
-            href="/gallery"
-            className={
-              this.props.selected === "Gallery"
-                ? "selected-nav-item"
-                : "nav-item"
-            }
-          >
-            Gallery
-          </a>
-          <a
             href="/"
             className={
               this.props.selected === "Home" ? "selected-nav-item" : "nav-item"
             }
           >
             Home
+          </a>
+          <a
+            href="/code"
+            className={
+              this.props.selected === "Code" ? "selected-nav-item" : "nav-item"
+            }
+          >
+            Code
+          </a>
+          <a
+            href="/writing"
+            className={
+              this.props.selected === "Writing"
+                ? "selected-nav-item"
+                : "nav-item"
+            }
+          >
+            Writing
           </a>
           <a
             href="/contact"

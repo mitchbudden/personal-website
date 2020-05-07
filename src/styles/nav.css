@@ -4,7 +4,7 @@
   }
 
   100% {
-    background-color: #ffeda0;
+    background-color: #9ecae1;
   }
 }
 
@@ -50,15 +50,15 @@
   width: 25%;
   font-weight: 600;
   margin: 1%;
-  color: black;
-  background-color: #feb24c;
+  color: white;
+  background-color: #3182bd;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-item:hover {
   text-decoration: none;
-  background-color: #ffeda0;
+  background-color: #9ecae1;
   color: black;
   text-decoration: none;
   animation: blue-low-light 0.7s 0s 1;

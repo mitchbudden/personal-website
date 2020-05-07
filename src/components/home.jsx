@@ -11,7 +11,9 @@ class Home extends Component {
         <div className="banner">
           <div className="banner-description-container">
             <h1 className="banner-description">Mitch Budden</h1>
-            <h2 className="banner-subhead">Writer / Programmer</h2>
+            <h2 className="banner-subhead">
+              Writer, Programmer, and Travel Junkie
+            </h2>
           </div>
         </div>
         <Footer />

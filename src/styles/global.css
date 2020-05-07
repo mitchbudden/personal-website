@@ -1,11 +1,11 @@
 .banner {
-  background: linear-gradient(rgba(1, 13, 22, 0.75), rgba(1, 13, 22, 0.75)),
-    url("../images/backsplash.jpeg") no-repeat center center fixed;
+  background: linear-gradient(rgba(1, 13, 22, 0.25), rgba(1, 13, 22, 0.25)),
+    url("../images/test.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 45em;
+  height: 35em;
   width: 98%;
   margin-left: 1%;
 }
@@ -15,25 +15,25 @@
 }
 
 .banner-description {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Rock Salt", cursive;
+  font-weight: 700;
   line-height: 75px;
   text-align: center;
-  font-size: 54px;
+  font-size: 64px;
   color: white;
-  width: 500px;
-  text-shadow: 4px 4px black;
+  width: 600px;
+  text-shadow: 2px 2px black;
 }
 
 .banner-subhead {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
   line-height: 75px;
   text-align: center;
   font-size: 30px;
   color: white;
-  width: 500px;
-  text-shadow: 4px 4px black;
+  width: 600px;
+  text-shadow: 2px 2px black;
 }
 
 .info-header {
@@ -97,8 +97,9 @@
 }
 
 .mock-icon {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
+  margin-right: 10 px;
 }
 
 .last-item {

@@ -1,6 +1,6 @@
 .banner {
   background: linear-gradient(rgba(1, 13, 22, 0.25), rgba(1, 13, 22, 0.25)),
-    url("../images/test.jpg") no-repeat center center fixed;
+    url("../images/hima.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -122,22 +122,74 @@
   margin: 15px;
 }
 
-.gallery-image {
-  width: 30em;
-  height: 20em;
-  border: 1px solid black;
-  margin: 1em;
-}
-
 .gallery-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   text-align: center;
   font-size: 40px;
-  background-color: #ffeda0;
   margin: 5% 15% 0% 15%;
   line-height: 2em;
   border-bottom: 2px solid black;
+}
+
+.item-container {
+  width: 10em;
+  height: 10em;
+}
+
+.imgs {
+  width: 90%;
+  padding: 5%;
+  height: 20em;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.5s;
+  transform: rotateY(0deg);
+}
+
+.img-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-family: "Quicksand", sans-serif;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.5s;
+  transform: rotateY(-180deg);
+}
+
+.img-wrap:hover .img-description {
+  text-shadow: 2px 2px black;
+  visibility: visible;
+  opacity: 1;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  box-shadow: 2px 2px black;
+  transform: rotateY(0deg);
+}
+
+.img-wrap:hover .imgs {
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.img-wrap:hover .codePen {
+  opacity: 0;
+}
+
+.codePen {
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
 }
 
 @media (max-width: 768px) {

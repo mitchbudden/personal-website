@@ -8,6 +8,7 @@ class Writing extends Component {
     return (
       <div>
         <Nav selected="Writing" />
+        <h1 className="gallery-title">Coming Soon</h1>
         <Footer />
       </div>
     );

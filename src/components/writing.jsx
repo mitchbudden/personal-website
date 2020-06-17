@@ -8,7 +8,12 @@ class Writing extends Component {
     return (
       <div>
         <Nav selected="Writing" />
-        <h1 className="gallery-title">Coming Soon</h1>
+        <div className="article-container">
+          <h1 className="gallery-title">Recent Articles</h1>
+          <a className="artcile-link" href="simplicity-is-a-bottleneck">
+            Simplicity is a Bottleneck
+          </a>
+        </div>
         <Footer />
       </div>
     );

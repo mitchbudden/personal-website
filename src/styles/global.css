@@ -172,6 +172,26 @@
   height: 100%;
 }
 
+.article-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.artcile-link {
+  font-size: 32px;
+  margin: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.article-paragraph {
+  font-size: 24px;
+  margin: 3% 15%;
+  font-weight: 300;
+  line-height: 35px;
+  text-indent: 75px;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 20em;

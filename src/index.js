@@ -5,6 +5,7 @@ import Home from "./components/home.jsx";
 import Contact from "./components/contact.jsx";
 import Code from "./components/code.jsx";
 import Writing from "./components/writing.jsx";
+import Article from "./components/article.jsx";
 import { Provider } from "react-redux";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/contact" component={Contact} />
       <Route path="/" component={Home} />
       <Route path="/writing" component={Writing} />
+      <Route path="/:id" component={Article} />
     </Router>
   </Provider>,
   document.getElementById("root")

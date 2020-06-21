@@ -192,6 +192,10 @@
   text-indent: 75px;
 }
 
+.article-image {
+  margin: 3% 35%;
+}
+
 @media (max-width: 768px) {
   .banner {
     height: 20em;

@@ -30,8 +30,19 @@ class Article extends Component {
       <div>
         <Nav selected="Writing" />
         <h1 className="gallery-title">{this.currentArticle.title}</h1>
+
         {this.currentArticle.paragraphs.map(paragraph => {
-          return <h2 className="article-paragraph">{paragraph}</h2>;
+          if (paragraph !== "image") {
+            return <h2 className="article-paragraph">{paragraph}</h2>;
+          } else {
+            return (
+              <img
+                className="article-image"
+                src={this.currentArticle.image}
+                alt={this.currentArticle.title}
+              />
+            );
+          }
         })}
         <Footer />
       </div>

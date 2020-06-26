@@ -10,6 +10,9 @@ class Writing extends Component {
         <Nav selected="Writing" />
         <div className="article-container">
           <h1 className="gallery-title">Recent Articles</h1>
+          <a className="artcile-link" href="NIMBYism">
+            NIMBYism
+          </a>
           <a className="artcile-link" href="simplicity-is-a-bottleneck">
             Simplicity is a Bottleneck
           </a>

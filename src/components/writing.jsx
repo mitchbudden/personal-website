@@ -16,6 +16,9 @@ class Writing extends Component {
           <a className="artcile-link" href="simplicity-is-a-bottleneck">
             Simplicity is a Bottleneck
           </a>
+          <a className="artcile-link" href="career-strategies-for-creatives">
+            Career Strategies for Creatives
+          </a>
         </div>
         <Footer />
       </div>

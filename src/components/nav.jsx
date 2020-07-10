@@ -6,7 +6,9 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav-outer">
-        <img src={M} alt="Woodlake" className="nav-logo"></img>
+        <a href="/">
+          <img src={M} alt="Woodlake" className="nav-logo"></img>
+        </a>
         <div className="nav-group">
           <a
             href="/"

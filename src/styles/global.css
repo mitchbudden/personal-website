@@ -15,7 +15,7 @@
 }
 
 .banner-description {
-  font-family: "Rock Salt", cursive;
+  font-family: "Special Elite", cursive;
   font-weight: 700;
   line-height: 75px;
   text-align: center;
@@ -26,7 +26,7 @@
 }
 
 .banner-subhead {
-  font-family: "Rock Salt", cursive;
+  font-family: "Special Elite", cursive;
   font-weight: 400;
   line-height: 75px;
   text-align: center;
@@ -194,6 +194,15 @@
 
 .article-image {
   margin: 3% 35%;
+}
+
+.article-note {
+  font-size: 22px;
+  margin: 3% 15%;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: center;
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

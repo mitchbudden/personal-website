@@ -10,14 +10,20 @@ class Writing extends Component {
         <Nav selected="Writing" />
         <div className="article-container">
           <h1 className="gallery-title">Recent Articles</h1>
-          <a className="artcile-link" href="NIMBYism">
+          <a className="article-link" href="NIMBYism">
             NIMBYism
           </a>
-          <a className="artcile-link" href="simplicity-is-a-bottleneck">
+          <a className="article-link" href="simplicity-is-a-bottleneck">
             Simplicity is a Bottleneck
           </a>
-          <a className="artcile-link" href="career-strategies-for-creatives">
+          <a className="article-link" href="career-strategies-for-creatives">
             Career Strategies for Creatives
+          </a>
+          <a
+            className="article-link"
+            href="what-happens-when-you-stop-caring-about-things"
+          >
+            What Happens When You Stop Caring About Things?
           </a>
         </div>
         <Footer />

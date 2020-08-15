@@ -25,6 +25,9 @@ class Writing extends Component {
           >
             What Happens When You Stop Caring About Things?
           </a>
+          <a className="article-link" href="tiny-houses">
+            Tiny Houses
+          </a>
         </div>
         <Footer />
       </div>

@@ -28,6 +28,9 @@ class Writing extends Component {
           <a className="article-link" href="tiny-houses">
             Tiny Houses
           </a>
+          <a className="article-link" href="calculating-your-real-wage">
+            Calculating Your Real Wage
+          </a>
         </div>
         <Footer />
       </div>

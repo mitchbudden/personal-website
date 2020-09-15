@@ -68,9 +68,8 @@ class Code extends Component {
 
   render() {
     return (
-      <div>
+      <div className="banner">
         <Nav selected="Code" />
-        <h1 className="gallery-title">Code Samples</h1>
         <div className="gallery-flex">
           {this.items.map(item => {
             return (
@@ -90,7 +89,6 @@ class Code extends Component {
             );
           })}
         </div>
-        <Footer />
       </div>
     );
   }

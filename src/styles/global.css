@@ -1,7 +1,5 @@
 .banner {
-  /* background: linear-gradient(rgba(1, 13, 22, 0.25), rgba(1, 13, 22, 0.25)),
-    url("../images/hima.jpeg") no-repeat center center fixed; */
-  background-image: url("https://images.unsplash.com/photo-1527867360621-abb2ca6a33ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-image: url("https://images.unsplash.com/photo-1593270573246-2dca2f2c1c43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -23,7 +21,7 @@
 }
 
 .banner-description {
-  font-family: "Open Sans", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 700;
   line-height: 50px;
   text-align: center;
@@ -44,6 +42,13 @@
   width: 600px;
   border-bottom: 1px solid white;
   padding-bottom: 35px;
+  margin-bottom: 0;
+}
+
+.divider {
+  border: 1px solid white;
+  width: 0px;
+  height: 50px;
 }
 
 .info-header {

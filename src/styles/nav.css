@@ -1,10 +1,10 @@
 @keyframes blue-low-light {
   0% {
-    background-color: white;
+    opacity: 0.5;
   }
 
   100% {
-    background-color: #9ecae1;
+    opacity: 1;
   }
 }
 
@@ -25,6 +25,9 @@
   flex-direction: row;
   align-content: space-between;
   width: 50%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-top: 30px;
 }
 
 .nav-item {
@@ -36,9 +39,10 @@
   width: 25%;
   font-weight: 300;
   margin: 1%;
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  opacity: 0.5;
 }
 
 .selected-nav-item {
@@ -51,16 +55,17 @@
   font-weight: 600;
   margin: 1%;
   color: white;
-  background-color: #3182bd;
+  background-color: black;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  opacity: 1;
 }
 
 .nav-item:hover {
   text-decoration: none;
-  background-color: #9ecae1;
-  color: black;
+  color: white;
   text-decoration: none;
+  opacity: 1;
   animation: blue-low-light 0.7s 0s 1;
 }
 

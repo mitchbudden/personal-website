@@ -25,6 +25,15 @@ class Writing extends Component {
           >
             What Happens When You Stop Caring About Things?
           </a>
+          <a className="article-link" href="tiny-houses">
+            Tiny Houses
+          </a>
+          <a className="article-link" href="calculating-your-real-wage">
+            Calculating Your Real Wage
+          </a>
+          <a className="article-link" href="emerging-educators">
+            Emerging Educators
+          </a>
         </div>
         <Footer />
       </div>

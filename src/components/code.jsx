@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Nav from "./nav";
-import Footer from "./footer";
 import "../styles/global.css";
 
 import city from "../images/code-images/city.png";

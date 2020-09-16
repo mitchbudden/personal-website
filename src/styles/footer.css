@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
+  width: 60%;
+  margin: 0% 20%;
   padding: 5%;
-  margin: 1%;
 }
 
 .contact-container {

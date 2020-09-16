@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import Nav from "./nav";
-import Footer from "./footer";
 import "../styles/global.css";
 
 class Writing extends Component {
   render() {
     return (
-      <div>
+      <div className="banner">
         <Nav selected="Writing" />
         <div className="article-container">
           <h1 className="gallery-title">Recent Articles</h1>
@@ -35,7 +34,6 @@ class Writing extends Component {
             Emerging Educators
           </a>
         </div>
-        <Footer />
       </div>
     );
   }

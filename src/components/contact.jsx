@@ -7,10 +7,10 @@ import biopic from "../images/biopic.png";
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="banner">
         <Nav selected="Contact" />
         <div className="image-desc-container">
-          <img className="biopic" src={biopic} alt="Mitch Budden" />
+          <img src={biopic} alt="Mitch Budden" />
           <h1 className="gallery-title">
             I'd love to talk to you. The methods below are how we can get in
             touch.

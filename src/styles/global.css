@@ -1,3 +1,39 @@
+@keyframes slide-down {
+  0% {
+    opacity: 0.5;
+    transform: translateY(50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0.5;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+
+  0% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .banner {
   background-image: url("https://images.unsplash.com/photo-1593270573246-2dca2f2c1c43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80");
   background-position: center center;
@@ -31,6 +67,7 @@
   border-top: 1px solid white;
   padding-top: 35px;
   text-align: center;
+  animation: 1s ease-out 0s 1 slide-down;
 }
 
 .banner-subhead {
@@ -44,6 +81,7 @@
   border-bottom: 1px solid white;
   padding-bottom: 35px;
   margin-bottom: 0;
+  animation: 1s ease-out 0s 1 slide-up;
 }
 
 .divider {
@@ -107,6 +145,8 @@
   margin: 5% 10%;
   width: 80%;
   background-color: white;
+  animation: 1s ease-out 0s 1 appear;
+  box-shadow: 2px 2px black;
 }
 
 .gallery-title {
@@ -196,6 +236,8 @@
   width: 60%;
   margin: 1% 0% 0% 20%;
   padding: 5%;
+  animation: 1s ease-out 0s 1 appear;
+  box-shadow: 2px 2px black;
 }
 
 .article-link {
@@ -302,6 +344,8 @@
   width: 80%;
   margin: 3% 10% 0% 10%;
   padding: 3% 10%;
+  animation: 1s ease-out 0s 1 appear;
+  box-shadow: 2px 2px black;
 }
 
 @media (max-width: 480px) {

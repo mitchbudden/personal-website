@@ -6,8 +6,10 @@
   justify-content: center;
   background-color: white;
   width: 80%;
-  margin: 5% 10% 0% 10%;
+  margin: 0% 10% 0% 10%;
   padding: 5%;
+  animation: 1s ease-out 0s 1 appear;
+  box-shadow: 2px 2px black;
 }
 
 .contact-container {

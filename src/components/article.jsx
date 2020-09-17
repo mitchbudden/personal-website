@@ -28,7 +28,6 @@ class Article extends Component {
   render() {
     return (
       <div>
-        <Nav selected="Writing" />
         <h1 className="gallery-title">{this.currentArticle.title}</h1>
         {this.currentArticle.note ? (
           <h1 className="article-note">{this.currentArticle.note}</h1>

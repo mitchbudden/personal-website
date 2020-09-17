@@ -30,6 +30,7 @@
   width: 600px;
   border-top: 1px solid white;
   padding-top: 35px;
+  text-align: center;
 }
 
 .banner-subhead {
@@ -198,10 +199,11 @@
 }
 
 .article-link {
-  font-size: 32px;
+  font-size: 28px;
   margin: 1%;
   font-family: "Open Sans", sans-serif;
   color: #3182bd;
+  margin: 2%;
 }
 
 .article-paragraph {
@@ -226,10 +228,6 @@
 }
 
 @media (max-width: 768px) {
-  .banner {
-    height: 20em;
-  }
-
   .banner-description-container {
     padding: 5% 0% 0% 5%;
   }
@@ -240,7 +238,7 @@
 
   .banner-subhead {
     font-size: 20px;
-    text-align: left;
+    text-align: center;
   }
 
   .info-text {
@@ -276,8 +274,9 @@
   }
 
   .gallery-flex {
-    margin: 5px;
-    padding: 5px;
+    margin: 5%;
+    padding: 5%;
+    width: 90%;
   }
 
   .gallery-image {
@@ -288,10 +287,34 @@
   .gallery-title {
     font-size: 24px;
   }
+
+  .imgs {
+    height: 15em;
+  }
+
+  .article-container {
+    width: 80%;
+    margin: 0% 10%;
+  }
+}
+
+.image-desc-container {
+  width: 80%;
+  margin: 0% 10%;
+  padding: 10%;
 }
 
 @media (max-width: 480px) {
   .banner-description {
-    text-align: left;
+    text-align: center;
+  }
+
+  .imgs {
+    height: 8em;
+  }
+
+  .article-link {
+    font-size: 24px;
+    margin: 5%;
   }
 }

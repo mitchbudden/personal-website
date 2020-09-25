@@ -46,6 +46,13 @@ class Writing extends Component {
           <a className="article-link" href="emerging-educators" target="_blank">
             Emerging Educators
           </a>
+          <a
+            className="article-link"
+            href="taking-education-personally"
+            target="_blank"
+          >
+            Taking Education Personally
+          </a>
         </div>
       </div>
     );

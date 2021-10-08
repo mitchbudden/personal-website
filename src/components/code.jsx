@@ -70,6 +70,9 @@ class Code extends Component {
       <div className="banner">
         <Nav selected="Code" />
         <div className="gallery-flex">
+        <h1 className="gallery-title">Here are a few random projects I've built over the years since I started coding. I don't contribute to any of
+        these much these days, as most of my work is enterprise, but here they are anyways and also the link to my GitHub as well for anyone interested
+        :<span className="article-link"><a href="https://github.com/mitchbudden">GitHub</a></span></h1>
           {this.items.map(item => {
             return (
               <div className="col-xs-4">

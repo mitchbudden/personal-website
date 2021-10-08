@@ -28,18 +28,8 @@ class Writing extends Component {
       <div className="banner">
         <Nav selected="Writing" />
         <div className="article-container">
-          <h1 className="gallery-title">Recent Articles</h1>
-          {this.articleNames.map(article => {
-            return (
-              <a
-                className="article-link"
-                href={this.makeLink(article.name)}
-                target="_blank"
-              >
-                {article.name}
-              </a>
-            );
-          })}
+          <h1 className="gallery-title">You can read anything I've recently written here:</h1>
+          <a className="article-link" href="https://mitchbudden.substack.com/publish">Substack</a>
         </div>
       </div>
     );

@@ -29,7 +29,7 @@ class Writing extends Component {
         <Nav selected="Writing" />
         <div className="article-container">
           <h1 className="gallery-title">You can read anything I've recently written here:</h1>
-          <a className="article-link" href="https://mitchbudden.substack.com/publish">Substack</a>
+          <a className="article-link" href="https://mitchbudden.substack.com/">Substack</a>
         </div>
       </div>
     );
